@@ -35,7 +35,7 @@ let g:indent_guides_auto_colors = 0
 hi IndentGuidesOdd  ctermbg=239
 hi IndentGuidesEven ctermbg=darkgrey
 
-"COLORSCHEME"
+"COLORSCHEME / LIGHTLINE"
 let g:lightline = {
 	\ 'colorscheme': 'wombat',
 	\ }
