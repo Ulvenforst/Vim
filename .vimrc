@@ -21,7 +21,6 @@ call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/fzf.vim'
 	Plug 'mattn/emmet-vim'
 	Plug 'nathanaelkane/vim-indent-guides'
-	Plug 'hugolgst/vimsence'
 call plug#end()
 
 "CONFIGS"
