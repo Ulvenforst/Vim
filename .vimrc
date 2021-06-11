@@ -44,3 +44,7 @@ colorscheme gruvbox
 let g:lightline = {
       \ 'colorscheme': 'seoul256',
       \ }
+      
+"SAVE FOLDING"
+autocmd BufWinLeave *.* mkview 
+autocmd BufWinEnter *.* silent loadview 
