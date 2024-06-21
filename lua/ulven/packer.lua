@@ -10,10 +10,13 @@ return require('packer').startup(function(use)
   }
 
   -- Theme
-  use { "rose-pine/neovim", as = "rose-pine" }
+  -- use { "rose-pine/neovim", as = "rose-pine" }
+  use {'morhetz/gruvbox', as = 'gruvbox'}
+  -- use { "folke/tokyonight.nvim", as = "tokyonight" }
 
   -- Highlighting
-  use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+  use({'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'})
+  use("nvim-treesitter/nvim-treesitter-context")
 
   -- Harpoon (C-e)
   use('theprimeagen/harpoon')
